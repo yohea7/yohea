@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+    <style>
+        table, th, td {
+            border:1px solid black;
+            border-collapse: collapse;
+        }
+        th:hover, td:hover{
+            color: rgb(255, 204, 231);
+            cursor: progress;
+        }
+        .day{
+            background-color: rgba(200, 224, 253,0.9);
+        }
+        .class{
+            background-color: rgba(255, 240, 249, 0.9);
+        }
+        body{
+            text-align: center;
+            font-family: 'Itim', cursive;
+            background-image: url('https://static.vecteezy.com/system/resources/previews/009/877/699/non_2x/pixel-art-night-sky-background-with-clouds-and-stars-for-game-8-bit-vector.jpg');
+            background-size: cover;
+        }
+        body:hover{
+            cursor: progress;
+        }
+        a{
+            text-decoration: none;
+        }
+        a:visited{
+            color: black;
+        }
+        a:hover{
+            color:rgb(255, 204, 231);
+            cursor: not-allowed;
+        }
+    </style>
+</head>
+<body>
+    <h1>
+		<a href="index.html" target="_top">Home</a>
+		<a href="aboutme.html" target="_top">About me</a>
+		<a href="myclass.html" target="_top">My class schedule</a>
+	</h1>
+    <table style="width:80%" align="center">
+        <tr style="height:50px">
+            <th style="width:10%" class="day">Day</th>
+            <th style="width:10%" class="day">1</th>
+            <th style="width:10%" class="day">2</th>
+            <th style="width:10%" class="day">3</th>
+            <th style="width:10%" class="day">4</th>
+            <th style="width:10%" class="day">5</th>
+            <th style="width:10%" class="day">6</th>
+            <th style="width:10%" class="day">7</th>
+            <th style="width:10%" class="day">8</th>
+            <th style="width:10%" class="day">9</th>
+        </tr>
+        <tr style="height:50px">
+            <th class="day">Sunday</th>
+            <th colspan="9" class="class"></th>
+        </tr>
+        <tr style="height:50px">
+            <th class="day">Monday</th>
+            <th colspan="2" class="class">CP151-B01<br>
+            (01-19-1801)<br>
+            (Time : 08.30-10.20)</th>
+            <th colspan="2" class="class">CP151-B01<br>
+            (01-19-1801)<br>
+            (Time : 10.30-12.20)</th>
+            <td class="class"></td>
+            <th colspan="4" class="class"></th>
+        </tr>
+        <tr style="height:50px">
+            <th class="day">Tuesday</th>
+            <th colspan="2" class="class">CP112-B01<br>
+            (01-10-0204B)<br>
+            (Time : 08.30-10.20)</th>
+            <th colspan="2" class="class">CP112-B01<br>
+            (01-10-0204B)<br>
+            (Time : 10.30-12.20)</th>
+            <td class="class"></td>
+            <th colspan="4" class="class"></th>
+        </tr>
+        <tr style="height:50px">
+            <th class="day">Wednesday</th>
+            <th colspan="4" class="class">SWU195-B17<br>
+            (01-35-0303W)<br>
+            (Time : 08.30-12.20)(มคอ.)</th>
+            <td class="class"></td>
+            <th colspan="4" class="class">SWU196-B17<br>
+            (01-35-0303W)<br>
+            (Time : 13.30-17.20)(มคอ.)</th>
+        </tr>
+        <tr style="height:50px">
+            <th class="day">Thursday</th>
+            <th colspan="4" class="class"></th>
+            <td class="class"></td>
+            <th colspan="4" class="class">ZIL08-B01<br>
+            (01-35-1301)<br>
+            (Time : 13.30-17.20)(มคอ.)</th>
+        </tr>
+        <tr style="height:50px">
+            <th class="day">Friday</th>
+            <th colspan="4" class="class">SWU193-B33<br>
+            (01-35-1204)<br>
+            (Time : 08.30-12.20)(มคอ.)</th>
+            <td class="class"></td>
+            <th colspan="4" class="class">SWU194-B33<br>
+            (01-35-1204)<br>
+            (Time : 08.30-12.20)(มคอ.)</th>
+        </tr>
+        <tr style="height:50px">
+            <th class="day">Saturday</th>
+            <th colspan="9" class="class"></th>
+        </tr>
+    </table>
+
+</body>
+</html>
